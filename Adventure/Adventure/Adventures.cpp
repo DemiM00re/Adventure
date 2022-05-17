@@ -56,7 +56,7 @@ int levelTwo(int outcomes[], vector<string> attributes)
 	else if (previousChoice == 2)
 	{
 		cout << "\n!!!----------------------Chapter One: the paths----------------------!!!" << endl;
-		cout << "\nYou follow the right path, you start seeing blood trails.\n";
+		cout << "\nYou follow the right path, you start seeing things.\n";
 		cout << "you had a bad feeling about this, so you quickened your pace.\n";
 		cout << "You got to the clearing but stopped dead in your tracks.\n";
 		cout << first << " looks out and smiles big they made it to the lost village" << endl;
@@ -113,20 +113,23 @@ int levelFour(int outcomes[], vector<string> attributes)
 	place = attributes[3];
 
 	///what happens for level two
-	int previousChoices;
-	previousChoices = outcomes[2];
+	int previous_Choices;
+	previous_Choices = outcomes[2];
 
-	if (previousChoices == 1)
+	if (previous_Choices == 1)
 	{
 		cout << "\n!!!----------------------Chapter three: The fight----------------------!!!" << endl;
 		cout << first << " played dead, the demon walks away leaving you to live another day." << endl;
+		cout << first << last << " comes to the clearing and see " << place << " also known as the lost village." << endl;
 		cout << "-----------------------------------------------" << endl;
+		return;
 	}
-	else if (previousChoices == 2)
+	else if (previous_Choices == 2)
 	{
 		cout << "\n!!!----------------------Chapter three: the fight----------------------!!!" << endl;
 		cout << first << " attacks the demon with their bare hands." << endl;
 		cout << first << " " << last << " doesn't stand a chance against the most and dies." << endl;
+		return;
 		
 	}
 	cout << "\n-----------------------------------------------------------" << endl;
