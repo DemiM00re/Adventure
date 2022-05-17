@@ -49,7 +49,7 @@ int levelTwo(int outcomes[], vector<string> attributes)
 		cout << "\nYou follow the path 1 and come across a huge demon, it was surrounded by bodies.\n";
 		cout << "You stop in your tracks, and look around to see if you can sneak away without being heard\n" << endl;
 		cout << " \n-------------------------------\n" << endl;
-		cout << first << " Do you choose to fight or run?  yes or no  \n";
+		cout << first << " Do you choose to fight or run?  1: fight or 2: Run \n";
 		
 		
 	}
@@ -81,14 +81,14 @@ int levelThree(int outcomes[], vector<string> attributes)
 	int previousChoices;
 	previousChoices = outcomes[1];
 
-	if (previousChoices == 'yes')
+	if (previousChoices == '1')
 	{
 		cout << "\n!!!----------------------Chapter two: The fight----------------------!!!" << endl;
 		cout << first << " ran as fast as they could away from the demon" << endl;
 		cout << "the demon runs after you, and suddenly appears infront of you" << endl;
 		cout << first << " What do you do? " << "1: play dead or 2: attack" << endl;
 	}
-	else if (previousChoices == 'no')
+	else if (previousChoices == '2')
 	{
 		cout << "\n!!!----------------------Chapter two: the fight----------------------!!!" << endl;
 		cout << first << " you look around for a weapon from one of the bodies, once you found one you grab it and run at the demon" << endl;
