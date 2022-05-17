@@ -36,24 +36,29 @@ int main()
     attributes.push_back(age);
     attributes.push_back(place);
 
+    cout << "\n-----------------------------------------------------------" << endl;
 
     //ask user if they are ready
     char response;
     cout << first << ", are you ready to begin your adventure? (y/n): " << endl;
     cin >> response;
+    cout << "\n-----------------------------------------------------------" << endl;
 
     //main game logic
-    while (response == 'y')
+    while (response == 'y','1', '2')
     {
         //call our level
         outcomes[0] = levelOne(outcomes, attributes);
+        cin >> response;
         
         outcomes[1] = levelTwo(outcomes, attributes);
-
-
+        cin >> response;
+        
         outcomes[2] = levelThree(outcomes, attributes);
+        cin >> response;
+        
         outcomes[3] = levelFour(outcomes, attributes);
-
+        cin >> response;
 
     }
 

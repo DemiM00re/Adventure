@@ -81,14 +81,14 @@ int levelThree(int outcomes[], vector<string> attributes)
 	int previousChoices;
 	previousChoices = outcomes[1];
 
-	if (previousChoices == 1)
+	if (previousChoices == 'yes')
 	{
 		cout << "\n!!!----------------------Chapter two: The fight----------------------!!!" << endl;
 		cout << first << " ran as fast as they could away from the demon" << endl;
 		cout << "the demon runs after you, and suddenly appears infront of you" << endl;
 		cout << first << " What do you do? " << "1: play dead or 2: attack" << endl;
 	}
-	else if (previousChoices == 2)
+	else if (previousChoices == 'no')
 	{
 		cout << "\n!!!----------------------Chapter two: the fight----------------------!!!" << endl;
 		cout << first << " you look around for a weapon from one of the bodies, once you found one you grab it and run at the demon" << endl;
