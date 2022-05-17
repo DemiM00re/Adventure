@@ -1,3 +1,2 @@
 ﻿  Adventures.cpp
-Adventures.obj : error LNK2005: _main already defined in Adventure.obj
-C:\Users\PC\Pictures\Adventure\Debug\Adventure.exe : fatal error LNK1169: one or more multiply defined symbols found
+  Adventure.vcxproj -> C:\Users\PC\Pictures\Adventure\Debug\Adventure.exe
