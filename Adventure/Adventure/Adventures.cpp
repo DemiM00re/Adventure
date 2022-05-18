@@ -120,16 +120,16 @@ int levelFour(int outcomes[], vector<string> attributes)
 	{
 		cout << "\n!!!----------------------Chapter three: The fight----------------------!!!" << endl;
 		cout << first << " played dead, the demon walks away leaving you to live another day." << endl;
-		cout << first << last << " comes to the clearing and see " << place << " also known as the lost village." << endl;
+		cout << first << " " << last << " comes to the clearing and see " << place << " also known as the lost village." << endl;
 		cout << "-----------------------------------------------" << endl;
-		return;
+		return 0;
 	}
 	else if (previous_Choices == 2)
 	{
 		cout << "\n!!!----------------------Chapter three: the fight----------------------!!!" << endl;
 		cout << first << " attacks the demon with their bare hands." << endl;
 		cout << first << " " << last << " doesn't stand a chance against the most and dies." << endl;
-		return;
+		return 0;
 		
 	}
 	cout << "\n-----------------------------------------------------------" << endl;

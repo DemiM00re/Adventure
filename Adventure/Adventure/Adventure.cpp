@@ -45,7 +45,7 @@ int main()
     cout << "\n-----------------------------------------------------------" << endl;
 
     //main game logic
-    while (response == 'y','1', '2')
+    while (response == '1', '2')
     {
         //call our level
         outcomes[0] = levelOne(outcomes, attributes);
