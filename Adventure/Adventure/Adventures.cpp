@@ -77,7 +77,7 @@ int levelThree(int outcomes[], vector<string> attributes)
 	age = attributes[2];
 	place = attributes[3];
 
-	///what happens for level two
+	///what happens for level three
 	int previousChoices;
 	previousChoices = outcomes[1];
 
@@ -100,6 +100,7 @@ int levelThree(int outcomes[], vector<string> attributes)
 	cout << "\n-----------------------------------------------------------" << endl;
 	int response;
 	cin >> response;
+
 	return response;
 }
 
@@ -112,7 +113,7 @@ int levelFour(int outcomes[], vector<string> attributes)
 	age = attributes[2];
 	place = attributes[3];
 
-	///what happens for level two
+	///what happens for level four
 	int previous_Choices;
 	previous_Choices = outcomes[2];
 
